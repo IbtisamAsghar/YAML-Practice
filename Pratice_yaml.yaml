@@ -1,0 +1,105 @@
+my_name : Ibtisam
+my_qualification : BS Artificial Intelligence
+CGPA : 3.65
+
+
+RealMadrid_player : 
+  Defender: Huijsen
+  Forward: Kylian
+  Midfeilder : Jude
+
+
+
+# String Datatype
+
+my_real_name : Ibtisam Asghar
+description : "I am AI & ML developer at Dynamic Leo"
+
+
+Project_instructions : |
+  select the project title
+  Make a product Profile
+  Make a SRS Document
+  Implement the project
+
+
+# Numbers 
+Cristiano_Ronaldo : 7
+
+
+# boolean
+
+is_player : true
+is_forward : yes
+is_gk : false
+is_defender : no
+instant : on
+
+
+# null values
+
+match_day : null
+match_time  : ~
+
+# time stamps
+
+match_day_RM : 2025-11-23
+local_time : 2025-11-23 08:30:01
+
+# collections
+
+teams : 
+  - Real Madrid
+  - true
+  - Barcelona
+  - false
+  - Atletico Madrid
+
+times : [1,2,3,4,5]
+
+# nested lists
+
+Sports_categories : 
+  - name : Cricket
+    Formats : 
+      - T20
+      - ODI
+      - Test
+  - name : Football
+    Formats : 
+      - 11 side
+      - 9 side
+      - 7 side
+
+Masala_chai : 
+  ingredients : 
+    tea : black_tea
+    liquid:
+      water : 200ml
+      milk : 100ml
+    spices : 
+      geniger : 1_inch
+      cinnamon : 1_stick
+  
+  Preparation : 
+    method: simmer
+    duration: 5_minutes
+
+
+# Dictionary of lists
+
+
+
+
+Player_profile  : 
+  - name : Cristiano Ronaldo
+    Goals : 950
+    Ballondors : 5
+    current_team : Alnassr FC
+  
+  - name : Lionel Messi
+    Goals :  890
+    Ballondors : 9
+    current_team : Inter Miami
+
+
