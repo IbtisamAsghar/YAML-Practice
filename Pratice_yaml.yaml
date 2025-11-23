@@ -103,3 +103,23 @@ Player_profile  :
     current_team : Inter Miami
 
 
+# create a reuseable block of data 
+default_base : &default_base_team
+  name: Real Madrid
+  slogan : Hala Madrid
+  UCL : 15
+
+
+another_team : 
+  <<: *default_base_team
+  stadium : Bernabeau
+
+# Explicit Data typing 
+
+zip_Code : !!str 1234 
+count : !!int "1234"
+
+unique_players : !!set
+  ? Ronaldo
+  ? Messi
+  ? Neymar
